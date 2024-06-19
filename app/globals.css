@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navHeight {
+  height: calc(100vh - 80px);
+}
+
+.container{
+  max-width: 1250px;
+  font-size: 14px;
+  padding-inline: 12px;
+  width: 100%;
+  margin-inline: auto;
+}
