@@ -13,6 +13,7 @@ const config: Config = {
         "11": "11px",
         "13": "13px",
         "15": "15px",
+        "17": "17px",
       },
       colors: {
       },
