@@ -8,7 +8,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     from: "Acme <onboarding@resend.dev>",
     to: ["emekaeric12@gmail.com"],
     subject: "Hello world",
-    react: Send({ firstName: "John" }),
+    text: "Hello",
   });
 
   if (error) {
